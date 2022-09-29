@@ -1,0 +1,96 @@
+/* Resetar o css */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul{
+  list-style: none;
+}
+
+
+img{
+ width: 100%;
+ height: auto;
+}
+
+/* Configurações */
+:root{
+  /* Cores */
+  --title-color: #000000;
+  --subtitle-color: #7D7987;
+  --second-color: #FF9900;
+
+  /* Font-size */
+  --title-font-size: 49px;
+  --subtitle-font-size: 14px;
+
+  /* font-style */
+  --title-font-family: 'Inter', sans-serif;
+  --text-font-family: 'Open Sans', sans-serif; 
+}
+
+body{
+  display: grid;
+  gap: 72px;
+}
+
+.title{
+  font: 700 var(--title-font-size) var(--title-font-family);
+  color:  var(--title-color);
+}
+
+span{
+  color: var(--second-color);
+}
+
+.hero , .link{
+  max-width: 592px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* section Image */
+.image{
+  margin: 0 auto;
+}
+
+.image img{
+  width: 348px;
+}
+
+/* section hero */
+.hero{
+  display: grid;
+  gap: 32px;
+  text-align: center;
+}
+
+.hero p{
+  font: 400 var(--subtitle-font-size) var(--text-font-family);
+  color:  var(--subtitle-color);
+}
+
+/* Footer */
+.link{
+  display: flex;
+  border-top: solid 1px #ECEFF2;
+  justify-content: center;
+  gap: 15px;
+  
+}
+
+footer a{
+  font: 400 var(--subtitle-font-size) var(--text-font-family);
+  color: var(--second-color);
+}
+
+footer img{
+  width: 98.39px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+
